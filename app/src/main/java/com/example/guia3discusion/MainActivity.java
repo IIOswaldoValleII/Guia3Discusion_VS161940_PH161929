@@ -28,6 +28,6 @@ TextView resultado;
     public void onClick(View v) {
     int ValorOriginal = Integer.parseInt(resultado.getText().toString());
     int ValorResultante = ValorOriginal + 1;
-        resultado.setText(ValorResultante);
+        resultado.setText(String.valueOf(ValorResultante));
     }
 }
